@@ -9,7 +9,6 @@ module.exports = {
 
         const devs = await Dev.find({
             techs: {
-                // $in - operador do mongo
                 $in: techsArray,
             },
             location: {
