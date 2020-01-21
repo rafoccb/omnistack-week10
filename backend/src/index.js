@@ -1,4 +1,4 @@
-// Variáveis que não devem ser alteradas depois {const}
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
